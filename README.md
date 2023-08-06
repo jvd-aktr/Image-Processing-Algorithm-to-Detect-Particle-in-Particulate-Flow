@@ -9,7 +9,7 @@ This image processing algorithm has been specifically tailored for the investiga
 To facilitate these image processing tasks, Python harnesses various libraries, including Pandas, NumPy, SciPy, and cv2. For a more in-depth understanding of the algorithm, you can find a comprehensive discussion in the "Image Processing Algorithm" PDF file. the PDF file consists the flow chart of the image processing algorithm along with some sample images.
 
 # Step to Run Codes:
-1. Rename the raw image folder to " Particle Count" and put it in a parent folder where both first and second codes are stored.
+1. Rename the raw image folder to "Particle Count" and put it in a parent folder where both first and second codes are stored.
 2. The raw images should be named in certain manner. A sample set of images are uploaded.
 3. Create a empty folder name "PC_Edited_PostP_Images" in the parent folder to store the generated binary image from Code1.
 
@@ -19,10 +19,12 @@ To facilitate these image processing tasks, Python harnesses various libraries, 
 3. Change "img_start" and "end_image" based on number of image you want to process from raw image folder " Particle Count" (line 38, 39).
 4. Change "min_area", "max_area" and "particle_circularity" values based requirment (line 42, 43, 44).
 5. Run the code.
+**Note:** You will get noise-free binary images in the "PC_Edited_PostP_Images" folder.
 
 ## To Run the Second Code "Code2_Evaluate_Particle_Distribution.py":
 1. Add the path of the parent folder in line 18 (path = r'.......').
 2. Change "num_img" based on number of image in "PC_Edited_PostP_Images" folder (line 32).
 3. Change the name of the excel file based on your choice (line 169 >> Excel_file_name = '-----').
 4. Run the code.
+**Note:** Upon completion, you will receive an Excel file containing two sheets. The first sheet contains particle distribution information for each image instance. The second sheet includes an overall particle distribution based on all the images available in "Particle Count" folder.
 
