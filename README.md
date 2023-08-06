@@ -19,12 +19,12 @@ To facilitate these image processing tasks, Python harnesses various libraries, 
 3. Change "img_start" and "end_image" based on number of image you want to process from raw image folder " Particle Count" (line 38, 39).
 4. Change "min_area", "max_area" and "particle_circularity" values based requirment (line 42, 43, 44).
 5. Run the code.
-**Note:** You will get noise-free binary images in the "PC_Edited_PostP_Images" folder.
+6. **Note:** You will get noise-free binary images in the "PC_Edited_PostP_Images" folder.
 
 ## To Run the Second Code "Code2_Evaluate_Particle_Distribution.py":
 1. Add the path of the parent folder in line 18 (path = r'.......').
 2. Change "num_img" based on number of image in "PC_Edited_PostP_Images" folder (line 32).
 3. Change the name of the excel file based on your choice (line 169 >> Excel_file_name = '-----').
 4. Run the code.
-**Note:** Upon completion, you will receive an Excel file containing two sheets. The first sheet contains particle distribution information for each image instance. The second sheet includes an overall particle distribution based on all the images available in "Particle Count" folder.
+5. **Note:** Upon completion, you will receive an Excel file containing two sheets. The first sheet contains particle distribution information for each image instance. The second sheet includes an overall particle distribution based on all the images available in "Particle Count" folder. You will also get a plot of overall particle distribution.
 
